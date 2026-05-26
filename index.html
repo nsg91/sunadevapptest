@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Suna · Full Prototype</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --vara-sans: 'Instrument Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    --vara-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+  html, body { margin: 0; padding: 0; height: 100%; background: #f0eee9; font-family: var(--vara-sans); -webkit-font-smoothing: antialiased; font-feature-settings: "ss01", "kern"; }
+  *, *::before, *::after { box-sizing: border-box; }
+
+  @keyframes varaPulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.025); } }
+  @keyframes varaFadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes varaBreathe { 0%, 100% { opacity: 0.7; } 50% { opacity: 1; } }
+  @keyframes varaDrift { 0%, 100% { transform: translate3d(0,0,0); } 50% { transform: translate3d(0,-6px,0); } }
+
+  .vara-scroll::-webkit-scrollbar { display: none; }
+  .vara-scroll { scrollbar-width: none; }
+
+  .tweaks { position: fixed; right: 20px; bottom: 20px; z-index: 999;
+    background: rgba(22,20,18,0.9); color: #f4f0ea;
+    border: 0.5px solid rgba(255,255,255,0.14); border-radius: 16px; padding: 18px;
+    backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+    font-family: var(--vara-sans); font-size: 12px;
+    min-width: 280px; max-width: 320px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4); display: none; }
+  .tweaks.on { display: block; }
+  .tweaks h4 { margin: 0 0 14px; font-weight: 500; font-size: 10px; letter-spacing: 0.32em; text-transform: uppercase; opacity: 0.7; }
+  .tweaks .group { margin-bottom: 16px; }
+  .tweaks .group:last-child { margin-bottom: 0; }
+  .tweaks label { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.55; margin-bottom: 8px; display: block; font-weight: 500; }
+  .tweaks .seg { display: grid; gap: 4px; }
+  .tweaks .seg.cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .tweaks .seg button { background: rgba(255,255,255,0.05); color: inherit; border: 0.5px solid rgba(255,255,255,0.1); padding: 9px 4px; border-radius: 8px; cursor: pointer; font-family: inherit; font-size: 10.5px; letter-spacing: 0.02em; font-weight: 400; transition: all 0.2s; }
+  .tweaks .seg button:hover { background: rgba(255,255,255,0.12); }
+  .tweaks .seg button.active { background: rgba(255,255,255,0.22); border-color: rgba(255,255,255,0.35); }
+</style>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="lib/ios-frame.jsx"></script>
+<script type="text/babel" src="lib/design-canvas.jsx"></script>
+<script type="text/babel" src="components/shared.jsx"></script>
+<script type="text/babel" src="components/protocol.jsx"></script>
+<script type="text/babel" src="components/HomeV2.jsx"></script>
+<script type="text/babel" src="components/ScanScreen.jsx"></script>
+<script type="text/babel" src="components/RevealScreen.jsx"></script>
+<script type="text/babel" src="components/PracticeVis.jsx"></script>
+<script type="text/babel" src="components/PracticeScreen.jsx"></script>
+<script type="text/babel" src="components/ShiftScreen.jsx"></script>
+<script type="text/babel" src="components/ProfileScreen.jsx"></script>
+<script type="text/babel" src="components/LibraryScreen.jsx"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<div class="tweaks" id="tweaks-panel">
+  <h4>Tweaks</h4>
+  <div class="group">
+    <label>Time of day</label>
+    <div class="seg cols-4" id="tweak-sky"></div>
+  </div>
+</div>
+
+<script type="text/babel" data-presets="react">
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "sky": "goldenHour"
+}/*EDITMODE-END*/;
+
+const SKY_LABELS = {
+  sunrise: 'Sunrise', morning: 'Morning', goldenNoon: 'Noon', afternoon: 'Aftern.',
+  goldenHour: 'Golden', dusk: 'Dusk', night: 'Night', deepNight: 'Deep',
+};
+const SKY_IDS = ['sunrise','morning','goldenNoon','afternoon','goldenHour','dusk','night','deepNight'];
+
+function SunaApp() {
+  // Screen router
+  const [screen, setScreen] = React.useState(function() {
+    try { return localStorage.getItem('suna.screen') || 'home'; } catch(e) { return 'home'; }
+  });
+  const [skyId, setSkyId] = React.useState(function() {
+    try { return localStorage.getItem('suna.sky') || TWEAK_DEFAULTS.sky; } catch(e) { return TWEAK_DEFAULTS.sky; }
+  });
+
+  // Scan data persisted across screens
+  const [scanBefore, setScanBefore] = React.useState({ si: 180, bpm: 76 });
+  const [scanAfter, setScanAfter] = React.useState({ si: 120, bpm: 68 });
+  const [activePractice, setActivePractice] = React.useState(null);
+
+  // Persist
+  React.useEffect(function() { try { localStorage.setItem('suna.screen', screen); } catch(e) {} }, [screen]);
+  React.useEffect(function() { try { localStorage.setItem('suna.sky', skyId); } catch(e) {} }, [skyId]);
+
+  // Expose for tweaks
+  React.useEffect(function() {
+    window.__setSky = setSkyId;
+    const seg = document.getElementById('tweak-sky');
+    if (seg) [...seg.querySelectorAll('button')].forEach(function(b) {
+      b.classList.toggle('active', b.dataset.id === skyId);
+    });
+  }, [skyId]);
+
+  const sky = window.SKY[skyId] || window.SKY.morning;
+
+  function navigate(s) { setScreen(s); }
+
+  function handleScanComplete(data) {
+    setScanBefore(data);
+    navigate('reveal');
+  }
+  function handleStartPractice(practice) {
+    setActivePractice(practice);
+    navigate('practice');
+  }
+  function handlePracticeComplete() {
+    // After practice, route to a re-scan (Quick-Verify, 30s) before the Shift reveal
+    navigate('rescan');
+  }
+  function handleRescanComplete(data) {
+    setScanAfter({ si: data.si, bpm: data.bpm });
+    navigate('shift');
+  }
+
+  // Render current screen
+  function renderScreen() {
+    switch (screen) {
+      case 'scan':
+        return React.createElement(ScanScreen, {
+          sky: sky,
+          onComplete: handleScanComplete,
+          onCancel: function() { navigate('home'); },
+        });
+      case 'rescan':
+        return React.createElement(ScanScreen, {
+          sky: sky,
+          mode: 'verify',
+          onComplete: handleRescanComplete,
+          onCancel: function() { navigate('home'); },
+        });
+      case 'reveal':
+        return React.createElement(RevealScreen, {
+          sky: sky,
+          scanData: scanBefore,
+          onStartPractice: handleStartPractice,
+          onNavigate: navigate,
+        });
+      case 'practice':
+        return React.createElement(PracticeScreen, {
+          sky: sky,
+          practice: activePractice || ALL_PRACTICES[0],
+          onComplete: handlePracticeComplete,
+          onCancel: function() { navigate('home'); },
+        });
+      case 'shift':
+        return React.createElement(ShiftScreen, {
+          sky: sky,
+          scanBefore: scanBefore,
+          scanAfter: scanAfter,
+          onNavigate: navigate,
+        });
+      case 'library':
+        return React.createElement(LibraryScreen, {
+          sky: sky,
+          onStartPractice: handleStartPractice,
+          onBack: function() { navigate('home'); },
+        });
+      case 'profile':
+        return React.createElement(ProfileScreen, {
+          sky: sky,
+          onBack: function() { navigate('home'); },
+        });
+      default:
+        return React.createElement(HomeV2, {
+          sky: sky,
+          onOpenPractice: handleStartPractice,
+          onNavigate: function(target) {
+            if (target === 'scan' || target === 'baseline') navigate('scan');
+            else if (target === 'library') navigate('library');
+            else navigate(target);
+          },
+        });
+    }
+  }
+
+  return (
+    <DesignCanvas>
+      <div style={{ position: 'relative', padding: '100px 80px 200px' }}>
+        {/* title */}
+        <div style={{ marginBottom: 36, fontFamily: 'var(--vara-sans)' }}>
+          <div style={{ fontSize: 36, fontWeight: 400, color: 'rgba(40,30,20,0.92)', letterSpacing: '-0.02em' }}>
+            Suna · Full Prototype
+          </div>
+          <div style={{ fontSize: 11, letterSpacing: '0.28em', textTransform: 'uppercase',
+            color: 'rgba(60,50,40,0.55)', marginTop: 8, fontWeight: 500 }}>
+            {screen === 'home' ? 'Home' : screen === 'scan' ? 'Check-In' : screen === 'reveal' ? 'State Reveal' : screen === 'practice' ? 'Practice' : screen === 'shift' ? 'The Shift' : screen === 'library' ? 'Library' : screen}
+            {' '}&middot; tap through the flow
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', gap: 64, alignItems: 'flex-start' }}>
+          <IOSDevice width={402} height={874} dark={sky.dark}>
+            <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+              {renderScreen()}
+            </div>
+          </IOSDevice>
+
+          {/* flow map */}
+          <div style={{ maxWidth: 280, paddingTop: 20, fontFamily: 'var(--vara-sans)' }}>
+            <div style={{ fontSize: 14, fontWeight: 500, color: 'rgba(40,30,20,0.85)', marginBottom: 16 }}>Screen Flow</div>
+            {[
+              { id: 'home', label: 'Home', desc: 'Greeting + scan + state chips + rhythm' },
+              { id: 'scan', label: 'Check-In', desc: '60s luminous aura scan' },
+              { id: 'reveal', label: 'State Reveal', desc: 'SI result + girlfriend voice' },
+              { id: 'practice', label: 'Practice', desc: '3-min guided exercise' },
+              { id: 'shift', label: 'The Shift', desc: 'Before/after capacity gain' },
+              { id: 'library', label: 'Library', desc: '12-practice somatic library' },
+              { id: 'profile', label: 'Profile', desc: 'Garden, sessions, progress' },
+            ].map(function(s) {
+              var active = screen === s.id;
+              return (
+                <button key={s.id} onClick={function() {
+                  if (s.id === 'practice' && !activePractice) setActivePractice(ALL_PRACTICES[0]);
+                  navigate(s.id);
+                }} style={{
+                  display: 'block', width: '100%', textAlign: 'left',
+                  padding: '10px 14px', marginBottom: 4, borderRadius: 10,
+                  background: active ? 'rgba(60,50,40,0.08)' : 'transparent',
+                  border: active ? '0.5px solid rgba(60,50,40,0.15)' : '0.5px solid transparent',
+                  cursor: 'pointer', fontFamily: 'var(--vara-sans)',
+                  transition: 'all 0.2s',
+                }}>
+                  <div style={{
+                    fontSize: 12, fontWeight: active ? 500 : 400,
+                    color: active ? 'rgba(40,30,20,0.92)' : 'rgba(60,50,40,0.65)',
+                  }}>{s.label}</div>
+                  <div style={{
+                    fontSize: 10, fontWeight: 300, color: 'rgba(60,50,40,0.45)', marginTop: 2,
+                  }}>{s.desc}</div>
+                </button>
+              );
+            })}
+
+            <div style={{
+              marginTop: 24, padding: '14px 16px', borderRadius: 12,
+              background: 'rgba(255,255,255,0.6)', border: '0.5px solid rgba(60,50,40,0.1)',
+              fontSize: 11, color: 'rgba(60,50,40,0.65)', lineHeight: 1.6,
+            }}>
+              <div style={{ fontSize: 9, letterSpacing: '0.28em', textTransform: 'uppercase',
+                fontWeight: 600, color: 'rgba(60,50,40,0.5)', marginBottom: 6 }}>Flow</div>
+              Home {'\u2192'} Scan {'\u2192'} Reveal {'\u2192'} Practice {'\u2192'} Shift
+              <br />Home {'\u2192'} Library {'\u2192'} Practice {'\u2192'} Shift
+            </div>
+          </div>
+        </div>
+      </div>
+    </DesignCanvas>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(SunaApp));
+
+// ── Tweaks wiring ──────────────────────────────
+var skySeg = document.getElementById('tweak-sky');
+skySeg.innerHTML = SKY_IDS.map(function(id) { return '<button data-id="' + id + '">' + SKY_LABELS[id] + '</button>'; }).join('');
+skySeg.addEventListener('click', function(e) {
+  var b = e.target.closest('button'); if (!b) return;
+  if (window.__setSky) window.__setSky(b.dataset.id);
+  window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { sky: b.dataset.id } }, '*');
+});
+
+window.addEventListener('message', function(e) {
+  var d = e.data || {};
+  if (d.type === '__activate_edit_mode') document.getElementById('tweaks-panel').classList.add('on');
+  if (d.type === '__deactivate_edit_mode') document.getElementById('tweaks-panel').classList.remove('on');
+});
+window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+</script>
+</body>
+</html>
