@@ -1,0 +1,1062 @@
+# SUNA — APP COPY (PLAIN TEXT)
+
+Every screen, every piece of copy. Organized in pitch-deck order so you can lift sections straight into slides.
+
+================================================================
+BRAND / TAGLINE
+================================================================
+
+Wordmark:  suna
+Tagline:   Widening the window of what's possible.
+Promise:   A moment of honesty with the body.
+
+Voice principles
+- Spoken aloud, not written down.
+- Body-first, not brain-first.
+- Never "calm down" — always "widen."
+- Names everything plainly: the metric, the instrument, the practice.
+
+
+================================================================
+0 — ONBOARDING (5 screens, first-run only)
+================================================================
+
+----------------------------------------------------------------
+0.1  WELCOME  (full-bleed sky)
+----------------------------------------------------------------
+Wordmark:    suna
+Tagline:     Widening the window of
+             what's possible
+Primary CTA: Begin
+Secondary:   I'm already a member
+
+
+----------------------------------------------------------------
+0.2  SIGN-IN
+----------------------------------------------------------------
+Eyebrow:    Welcome
+Headline:   Let's start with hello.
+Subhead:    Sign in once. Your nervous system data stays on
+            your device.
+
+Buttons:    Continue with Apple
+            Continue with Google
+            Continue with Email
+
+Fine print: By continuing you agree to suna's terms. Cycle
+            tracking, wake time, and preferences live in
+            Settings — adjust anytime.
+
+CTA:        Continue   (or "Choose a sign-in" when none picked)
+
+
+----------------------------------------------------------------
+0.3  THE METRIC  (step 2/4 dot)
+----------------------------------------------------------------
+Eyebrow:    The Metric
+Headline:   Your nervous system has a window.
+            We'll show you how to widen it.
+
+Diagram labels:
+  Narrow · Reactive    →  wired · stuck
+  Wide · Open          →  steady · flowing
+
+Body:       A narrow window is reactive. Wired. Stuck.
+            A wide one is open. Steady. Flow.
+
+Footer:     suna shows you which one you're in — and how to
+            widen it.
+
+CTA:        Continue
+
+
+----------------------------------------------------------------
+0.4  THE INSTRUMENT  (step 3/4)
+----------------------------------------------------------------
+Eyebrow:    The Instrument
+Headline:   Your phone is the instrument.
+
+Body:       Your finger on the lens. The flash as light source.
+            The camera as detector. In 60 seconds, suna captures
+            heart rate, HRV, breath rate, and the Baevsky Stress
+            Index.
+
+Validation card:
+            VALIDATED AGAINST
+            medical-grade ECG · r = 0.997
+
+Footnote:   PPG — photoplethysmography. The same optical tech
+            inside every hospital in the world.
+
+Privacy:    🔒 Nothing leaves your device. No video stored.
+
+CTA:        Continue
+
+
+----------------------------------------------------------------
+0.5  THE PRACTICE  (step 4/4)
+----------------------------------------------------------------
+Eyebrow:    The Practice
+Headline:   Balancing your nervous system isn't calming down.
+
+Body:       It's training your body to move between states —
+            and to come back when something throws you off.
+
+Lineage:    Short practices, drawn from the research of the
+            names below. Tap any to see who they are.
+
+Researcher chips (each opens a citation card):
+  Huberman       — Stanford neuroscientist · physiological sigh,
+                   light protocols
+  Porges         — Polyvagal theory · the vagal brake (1994)
+  Levine         — Somatic Experiencing · trauma + nervous
+                   system completion
+  Lehrer         — HRV biofeedback · resonant breathing at 6 bpm
+  Uvnäs-Moberg   — Oxytocin physiology · the calm-and-connect
+                   system
+
+Closer:     Each one matched to the state you're actually in.
+
+CTA:        Jump In   →   (then Paywall)
+
+
+================================================================
+1 — PAYWALL  (Onboarding → Paywall → Home)
+================================================================
+
+Wordmark:   suna
+Headline:   Widen
+            your window.
+Subhead:    Three days on us. Then a price your nervous system
+            can afford.
+
+────────────────────────────────────────────
+FREE-TRIAL CALLOUT (above pricing)
+────────────────────────────────────────────
+Eyebrow:    3 days · on the house
+Title:      Start a free trial.
+Footer:     No charge until [trial-end date]. Cancel anytime
+            in Settings.
+
+────────────────────────────────────────────
+PLAN CARDS
+────────────────────────────────────────────
+ANNUAL  (default-selected)
+  Price:  $8.25/mo
+  Sub:    3 days free, then billed yearly
+  Badge:  Save $56/yr  ✓
+  Foot:   AUTO-RENEWS [date] AT $99/YR UNLESS CANCELED
+
+MONTHLY
+  Price:  $12.99/mo
+  Sub:    3 days free, then billed monthly
+  Foot:   AUTO-RENEWS [date] AT $12.99/MO UNLESS CANCELED
+
+────────────────────────────────────────────
+WHAT YOU GET
+────────────────────────────────────────────
+  ✓ unlimited check-ins
+     60-second luminous scans, anytime
+  ✓ all 15 practices
+     rise · flow · land · play — fully unlocked
+  ✓ your garden
+     the long arc of your nervous system, in bloom
+  ✓ cycle-aware insights
+     patterns suna learns over weeks, not days
+
+────────────────────────────────────────────
+GROUNDED IN
+────────────────────────────────────────────
+Huberman Lab · Stanford · MIT · Wharton · Polyvagal Inst.
+
+────────────────────────────────────────────
+Promo Code  (collapsed by default)
+
+CTA:        START FREE TRIAL  →
+
+Fine print: Cancel anytime in Settings. No charge until [date].
+Footer:     Restore Purchase · Terms · Privacy
+
+
+================================================================
+2 — HOME
+================================================================
+
+Top rail:        suna   [profile avatar: first initial]
+
+Greeting eyebrow:
+  Morning · Eva · day 17 · luteal
+  (sky-phase · user name · cycle day · cycle phase — when on)
+
+Greeting headline (rotates by sky):
+  Sunrise:       The light is arriving, Eva.
+  Morning:       How are you meeting this morning, Eva?
+  Golden Noon:   The day is bright, Eva.
+  Afternoon:     The day holds you, Eva.
+  Golden Hour:   The day is turning, Eva.
+  Dusk:          The evening opens, Eva.
+  Night:         Rest is near, Eva.
+  Deep Night:    Rest holds you, Eva.
+
+Scan button:
+  [fingerprint orb · concentric breathing rings]
+  Tap to scan
+  a moment of honesty with the body
+
+Scroll hint:     SCROLL ↓
+
+────────────────────────────────────────────
+SECTION · STATE CHIPS
+────────────────────────────────────────────
+Eyebrow:   How are you meeting this moment
+Title:     Where are you, right now?
+
+Chip grid:
+  REACTIVE   — fight · flight
+  ANXIOUS    — mind racing
+  WIRED      — wired · tired
+  OPEN       — calm · present
+  DIMMED     — flat · foggy
+  STUCK      — shutdown
+
+On chip tap — "For you, now" card opens:
+  Reactive →  Soften the Charge.
+              Slow the system and let the static dissolve.
+  Anxious  →  Clear the Static.
+              Gentle regulation to untangle the overload, one
+              breath at a time.
+  Wired    →  Land the Alarm.
+              The body is bracing. Let it know the moment is
+              safe.
+  Open     →  Deepen the State.
+              You're open. Sustain it, or raise the ceiling.
+  Dimmed   →  Lift Your Current.
+              Wake the biology gently, without triggering the
+              alarm.
+  Stuck    →  Invite Movement.
+              A small somatic door back into the body.
++ 3 matched practice rows beneath.
+
+────────────────────────────────────────────
+SECTION · TODAY'S RHYTHM
+────────────────────────────────────────────
+Eyebrow:   Today's rhythm
+Title:     The day has a shape.
+
+Phase tabs:
+  rise   6a–11a  (now badge if current phase)
+  flow   11a–4p
+  land   4p–12a
+
+→ 4 practice cards in active phase (see PRACTICES section).
+Footer link:  View all 15 practices →
+
+────────────────────────────────────────────
+SECTION · BASELINE FORMING
+────────────────────────────────────────────
+Eyebrow:   Baseline forming
+Title:     Six mornings to go.
+
+Body:      Day 1 of 7
+           Each morning scan sharpens your baseline.
+
+────────────────────────────────────────────
+SECTION · WHY WE DO THE WORK
+────────────────────────────────────────────
+Eyebrow:   Why we do the work
+Title:     Small moments, measurable change.
+
+(Money & Performance fact card · shuffleable · see section 11)
+
+────────────────────────────────────────────
+SECTION · SHAREABLE QUOTE CARD
+────────────────────────────────────────────
+suna ·  "The body keeps the score.
+         But it also holds the path back."
+         — Bessel van der Kolk
+[Share →]  (opens 9:16 wallpaper modal · see section 8)
+
+────────────────────────────────────────────
+TAB BAR  (Home · Scan · Library)
+────────────────────────────────────────────
+
+
+================================================================
+3 — SCAN  (60-second check-in)
+================================================================
+
+----------------------------------------------------------------
+3.1  MINDFUL MOMENT  (intro)
+----------------------------------------------------------------
+Eyebrow:  Before We Begin
+Title:    Settle
+
+Three rotating prompts:
+  A. Headline: A quiet minute.
+     Sub:      60 seconds is enough to be heard.
+     CTA:      I'm ready
+
+  B. Headline: A mindful moment.
+     Sub:      Your nervous system is about to be heard.
+     CTA:      Let's begin
+
+  C. Headline: One minute of honesty.
+     Sub:      Before you move, let the body speak first.
+     CTA:      I'm here
+
+Caption strip: Take a breath. Let your shoulders drop. We'll
+               begin when you're ready.
+
+----------------------------------------------------------------
+3.2  WAITING  (place finger on lens)
+----------------------------------------------------------------
+Eyebrow:  Check In
+Title:    Attune
+CTA:      [fingerprint] BEGIN SCAN
+Caption:  Place your finger lightly over the lens and flash.
+
+----------------------------------------------------------------
+3.3  SCANNING  (60-second countdown, BPM + SI emerge)
+----------------------------------------------------------------
+Rotating wisdom — sensor:
+  • Your camera is reading 30 frames a second of light through
+    your fingertip.
+  • The flash is the same wavelength used in hospital pulse
+    oximeters.
+  • Each beat moves the blood in your finger. The sensor sees
+    every one.
+  • PPG — photoplethysmography. The same tech in your Oura ring
+    is in your phone.
+  • Your finger is bright red right now. That's how the sensor
+    knows it's a finger.
+  • 60 seconds is enough for the Baevsky Index. Astronauts used
+    the same math in orbit.
+
+Rotating wisdom — breath:
+  • Breathe like normal. The sensor is calibrating to you.
+  • Soften your jaw. Drop your shoulders. The data will show it.
+  • Lengthen the exhale. Twice as long as the inhale, if you can.
+  • Unclench your hand. Your fingertip should feel warm, not
+    pressed.
+  • Slow it down. The sensor reads slowness as truth.
+  • Notice your feet on the floor.
+
+Closer (last 15s — one of):
+  • One last breath. Your system is being heard.
+  • Almost there. Your nervous system has been seen.
+  • Reading you now. Hold steady.
+
+----------------------------------------------------------------
+3.4  ERROR STATES  (~10% chance after 3s, never on retry)
+----------------------------------------------------------------
+NO FINGER:
+  I can't see your finger.
+  Cover both the lens and the flash with your fingertip.
+  [Try again]   [I'll come back]
+
+LOW LIGHT:
+  Not enough light.
+  Move to a brighter spot, or hold the flash closer to your
+  fingertip.
+
+NOISY / MOTION:
+  Too much motion.
+  Rest your hand on a flat surface and breathe steady.
+
+LOST SIGNAL:
+  I lost your pulse.
+  Soften your finger — you may be pressing too hard.
+
+----------------------------------------------------------------
+3.5  DONE
+----------------------------------------------------------------
+✓ COMPLETE
+Caption: Your system has been heard.
+
+----------------------------------------------------------------
+3.6  RE-SCAN (post-practice · 30s · "Verify")
+----------------------------------------------------------------
+Eyebrow:  Re-Scan
+Title:    Verify
+
+
+================================================================
+4 — STATE REVEAL  (post-scan)
+================================================================
+
+First-time pill:  ● Your first reading
+First-time copy:
+  Eyebrow:  Hello, you
+  Title:    Nice to meet your nervous system.
+  Note:     This is what your morning looks like, today.
+            We'll get to know its rhythms over the next week.
+
+Returning:
+  Eyebrow:  Your Reading
+  Title:    The Reveal
+
+State orb:  large SI number · state label below
+
+The girlfriend voice (per state):
+
+  BRITTLE   (SI > 150)
+    Headline:  Your system is sitting a little brittle.
+    Insight:   Your tension index is high. It feels like your
+               engine is idling at 5,000 RPMs while you're just
+               trying to sit at your desk.
+    CTA:       Widen my window
+
+  REACTIVE  (SI 100–150)
+    Headline:  You're running reactive.
+    Insight:   Your system is on alert — not quite red-lining,
+               but the dial is leaning hot. You've got energy,
+               but it's scattered.
+    CTA:       Steady the pulse
+
+  ELASTIC   (SI 50–100)
+    Headline:  You're sitting elastic.
+    Insight:   Your system has bounce. This is the sweet spot —
+               flexible, responsive, ready. Let's lock it in.
+    CTA:       Deepen the state
+
+  STATIC    (SI < 50)
+    Headline:  Your system is running quiet.
+    Insight:   Low tension, but also low momentum. Like a car
+               in neutral — nothing wrong, just not moving yet.
+    CTA:       Spark some momentum
+
+Metrics row:  Heart Rate bpm  ·  Tension SI  ·  State label
+
+Recommendation block (Override voices):
+  SI > 150  →  Your system is red-lining. Let's anchor first.
+  SI < 50   →  Your system is running quiet. Let's spark some
+               momentum.
+  Subjective brittle/anxious/wired →
+               I hear you. Let's steady the pulse first.
+  Subjective depleted/static →
+               Let's wake the system gently.
+
+CTA:        [practice card · begin →]
+Foot link:  View all practices →
+
+
+================================================================
+5 — PRACTICE  (3-min guided exercise)
+================================================================
+
+Header:
+  Category chip: SPARK / FLOW / ANCHOR   ·   3 min
+  Title:         [Practice name]
+  Subtitle:      [Practice subtitle]
+  Body:          [Description, see PRACTICES section]
+
+Timer ring:    Begin → counts down M:SS → COMPLETE
+Visualization: Unique per practice (eye scan, breath orb, ear,
+               head, etc.)
+
+Instructions: Active step highlights, prior steps check off.
+
+Side cards:
+  THE DATA
+    [practice.mars]
+    [practice.source]
+
+  PERFORMANCE
+    [practice.perfFlex]
+
+End early:    End Early
+
+
+================================================================
+6 — THE SHIFT  (post-practice reveal)
+================================================================
+
+First-time pill:  ● Your first shift
+First-time:
+  Title:    You did the thing.
+  Sub:      This is what widening feels like.
+
+Returning:
+  Eyebrow:  Post-Practice
+  Title:    The Shift
+  Sub:      Internal clearance achieved.
+
+Hero number:  +[NN]%
+              CAPACITY GAINED
+
+Before / After comparison:
+  3 MINS AGO       NOW
+  [Brittle]        [Elastic]
+  SI 180           SI 120
+
+Narrative card:
+  You just cleared the static and reclaimed [NN]% of your
+  biological capacity. You didn't need a nap — you just needed
+  to shift your gear.
+
+Metric pills (tap to expand):
+  SYSTEM TENSION   -60 SI
+    The Baevsky Index measures the rigidity of your rhythm.
+    A lower score means you've moved from Brittle to Fluid.
+
+  ENGINE IDLE      -8 BPM
+    Your heart rate has slowed, signaling to your brain that
+    the hunt is over. You've engaged the Vagal Brake.
+
+  RHYTHM WAVE      90% COHERENCE
+    Your heart and lungs are now dancing to the same beat.
+    This is the peak state for high-stakes decision making.
+
+PLAY CUE (if post-state Elastic):
+  PLAY · UNMEASURED
+  A minute of play? You have the bandwidth now.
+  [browse play]   [not today]
+
+CTAs:
+  BACK TO HOME
+  Share your Shift →   (opens 9:16 wallpaper)
+
+
+================================================================
+7 — LIBRARY  (15 practices)
+================================================================
+
+Header:
+  ← Back
+  Practice Library
+  What does your nervous system need right now?
+
+Tabs:
+  rise   · Ignite      — Clear sleep inertia and build
+                          morning momentum.
+  flow   · Sustain     — Lock in coherence and widen your
+                          window.
+  land   · Recover     — Deep parasympathetic activation for
+                          recovery.
+  play   · Ignite      — Three practices, by design uncounted.
+                          The unmeasured minute.
+
+Per-practice card:
+  [photo · type glyph · minutes badge]
+  Practice name
+  Subtitle
+  Description
+  [The data ▾]      (toggles MARS card)
+  BEGIN PRACTICE
+
+
+================================================================
+PRACTICES — the master copy
+================================================================
+
+══ RISE / Sparks  (morning, 6–11a) ══
+
+1. SACCADIC RESET
+   Subtitle:    Lateral eye movement
+   Description: Triggers optic flow, suppressing the amygdala
+                and releasing the behavioral brake.
+   Performance: Negotiation: 20% more likely to initiate
+                high-stakes asks.
+   The Data:    Triggers Optic Flow, suppressing the Amygdala.
+   Source:      Huberman Lab / Stanford (2021)
+   Steps:       Fix gaze on a point ahead
+                Move eyes smoothly left to right
+                Follow with gentle head turns
+                Let the horizon expand
+
+2. AURICULAR RESET
+   Subtitle:    Vagal ear activation
+   Description: Stimulates the concha — the only place the
+                vagus nerve reaches the skin surface.
+   Performance: Improves gut motility. Increases blood flow
+                for a natural morning glow.
+   The Data:    Stimulates the Concha for vagal activation.
+   Source:      He, W., et al. (2012)
+   Steps:       Gently pull outer ear upward, hold 5s
+                Pull outward, hold 5s
+                Pull earlobe down, hold 5s
+                Circular pressure on the tragus
+
+3. SOMATIC SHAKE
+   Subtitle:    Micro-movement discharge
+   Description: Resets muscle spindle fibers, discharging
+                trapped sympathetic energy.
+   Performance: Discharges pre-meeting adrenaline. Clears
+                sleep stiffness.
+   The Data:    Resets Muscle Spindle Fibers.
+   Source:      Levine, P.A. (1997)
+   Steps:       Stand with feet hip-width apart
+                Begin shaking hands gently
+                Let the shake travel through arms and
+                  shoulders
+                Allow micro-tremors to release naturally
+
+4. COLD POINT
+   Subtitle:    Mammalian dive reflex
+   Description: Triggers the mammalian dive reflex, spiking
+                norepinephrine for alertness.
+   Performance: 3 hours of sharp focus. Depuffs and tightens
+                pores.
+   The Data:    Spikes Norepinephrine via Mammalian Dive
+                Reflex.
+   Source:      Alboni, P., et al. (2011)
+   Steps:       Apply cold water or cold object to face
+                Focus on the temples and forehead
+                Breathe slowly through the sensation
+                Notice the alertness arriving
+
+══ FLOW  (midday, 11a–4p) ══
+
+5. 0.1Hz WAVE
+   Subtitle:    6 breaths per minute
+   Description: Creates autonomic coherence at 6 breaths per
+                minute (0.1 Hz).
+   Performance: Peak emotional control. 15% less biological
+                effort to work.
+   The Data:    Creates Autonomic Coherence at 0.1 Hz.
+   Source:      Lehrer, P.M., et al. (2003)
+   Steps:       Inhale for 5 seconds
+                Exhale for 5 seconds
+                Find the wave rhythm
+                Let coherence build naturally
+
+6. SOFT GAZE
+   Subtitle:    Panoramic vision shift
+   Description: Shifts from focal to panoramic vision,
+                instantly disengaging high-alert.
+   Performance: See the big-picture strategy. Prevents brow
+                furrows.
+   The Data:    Shifts from Focal to Panoramic Vision.
+   Source:      Vision Research Journal
+   Steps:       Soften your gaze — let focus blur
+                Expand awareness to peripheral vision
+                Notice space above and below sight line
+                Hold the panoramic field for 30s
+
+7. BUTTERFLY HUG
+   Subtitle:    Bilateral stimulation
+   Description: Uses bilateral stimulation to integrate logic
+                and creative brain hemispheres.
+   Performance: Breakthrough problem-solving. Mops up mid-day
+                stress.
+   The Data:    Bilateral Stimulation integrates left/right
+                brain.
+   Source:      Artigas, L. (1998) / EMDR
+   Steps:       Cross arms over chest, hands on shoulders
+                Alternate tapping left and right
+                Keep rhythm slow and steady
+                Close eyes and let the mind settle
+
+8. HEART-CENTERED HOLD
+   Subtitle:    Oxytocin activation
+   Description: Triggers oxytocin release, a biological buffer
+                against mid-day cortisol.
+   Performance: Presence feels magnetic and trustworthy. Evens
+                complexion.
+   The Data:    Triggers Oxytocin as a Cortisol buffer.
+   Source:      Uvnäs-Moberg, K. (2003)
+   Steps:       Place both hands over your heart
+                Feel the warmth build beneath your palms
+                Breathe slowly into the contact point
+                Notice the settling that follows
+
+══ LAND / Anchors  (evening, 4p–12a) ══
+
+9. PHYSIOLOGICAL SIGH
+   Subtitle:    Double inhale · long exhale
+   Description: Pops the alveoli to maximize CO₂ offload and
+                lower heart rate.
+   Performance: The emergency exit for a bad day. Relaxes jaw
+                and neck.
+   The Data:    Pops Alveoli for maximum CO₂ offload.
+   Source:      Vlemincx, E., et al. (2010)
+   Steps:       Double inhale through the nose — two sniffs
+                One long exhale through the mouth
+                Let the second sniff re-inflate the lungs
+                Repeat 3–5 cycles
+
+10. BIRD SONG
+    Subtitle:    Listen, with your eyes closed
+    Description: Birdsong sits in a frequency band that
+                 promotes alpha brain waves and signals safety
+                 to the nervous system.
+    Performance: Lowers cortisol within minutes. The body reads
+                 it as: no predators here.
+    The Data:    Activates Alpha Waves via 1–8 kHz acoustic
+                 range.
+    Source:      Stuhlmann et al. (2022) · Ratcliffe et al.
+                 (2013)
+    Steps:       Close your eyes
+                 Let the sound fill the room
+                 Notice nearer and farther voices
+                 That's the practice
+
+11. FRONTAL-OCCIPITAL BRIDGE
+    Subtitle:    Prefrontal blood flow
+    Description: Forces blood flow from the survival brain
+                 back to the prefrontal cortex.
+    Performance: Induces deep sleep cycles. Natural botox for
+                 the forehead.
+    The Data:    Redirects blood to Prefrontal Cortex.
+    Source:      Siegel, D.J. (2012)
+    Steps:       Place one hand on forehead
+                 Place other hand on back of head
+                 Hold gently with light pressure
+                 Breathe and feel the warmth equalize
+
+12. VAGAL HUM
+    Subtitle:    Nitric oxide resonance
+    Description: Increases nitric oxide by 15x, dilating
+                 vessels for deep recovery.
+    Performance: Clears vocal fatigue. Vibrational lymphatic
+                 drainage.
+    The Data:    Increases Nitric Oxide 15x via humming
+                 resonance.
+    Source:      Weitzberg & Lundberg (2002)
+    Steps:       Inhale deeply through the nose
+                 Hum on the exhale at a low pitch
+                 Feel vibration travel throat to chest
+                 Let each hum deepen naturally
+
+══ PLAY  (unmeasured · anytime) ══
+
+13. THE CURIOSITY SCAN
+    Subtitle:    Five things you never noticed
+    Description: Find five things in the room you've never
+                 noticed before. Not things you haven't looked
+                 at — things that weren't there, to you, until
+                 now.
+    Performance: Norepinephrine release without the alarm.
+                 Hippocampal encoding ramps up — time slows.
+    The Data:    Activates the Locus Coeruleus via novelty
+                 detection.
+    Source:      Panksepp (1998) · Eichenbaum (2017) ·
+                 Aston-Jones & Cohen (2005)
+    Steps:       Look around the room
+                 Find one thing you've never noticed
+                 Then another. And another.
+                 Stop when you find the fifth
+
+14. THE FOUND OBJECT
+    Subtitle:    Use it as something else
+    Description: Pick up something within arm's reach. Use it
+                 as something else. A spoon becomes a
+                 microphone. A phone becomes a bird.
+    Performance: Engages the default mode network — where
+                 spontaneous insight lives.
+    The Data:    Recruits the DMN, quiets the central
+                 executive.
+    Source:      Beaty (2016) · Christoff et al. (2016)
+    Steps:       Pick up something within arm's reach
+                 Make it into something else
+                 Speak to it. Use it. Play with it.
+                 Stop when you surprise yourself
+
+15. DANCE LIKE NO ONE'S WATCHING
+    Subtitle:    One song. No plan.
+    Description: Put on one song. Move however you want. No
+                 mirror. No phone. No plan.
+    Performance: 20 minutes of elevated divergent thinking
+                 afterward. Cortisol drops measurably.
+    The Data:    Recruits motor cortex + cerebellum + limbic
+                 simultaneously.
+    Source:      Koelsch (2014) · Karageorghis & Priest (2012)
+                 · Lewis & Lovatt (2013)
+    Steps:       Pick one song, don't overthink it
+                 Move however you want
+                 No mirror. No phone. No plan.
+                 Stop when the song stops
+
+
+================================================================
+8 — SHARE  (9:16 wallpaper modals)
+================================================================
+
+QUOTE WALLPAPER  (from Home QuoteCard)
+  Header:      WALLPAPER · 9 : 16
+  Wordmark:    suna
+  Pull quote:  "The body keeps the score.
+                But it also holds the path back."
+               BESSEL VAN DER KOLK
+  Tagline:     WIDENING THE WINDOW
+  Buttons:     SAVE TO PHONE  ·  SHARE
+
+SHIFT WALLPAPER  (from Shift screen)
+  Header:      WALLPAPER · 9 : 16
+  Wordmark:    suna
+  Eyebrow:     CAPACITY UNLOCKED
+  Hero:        +[NN]%
+  States:      [Before] —— [After]
+  Italic line: "Your system has bounce…" (girlfriend voice)
+  Metric strip:
+    SYSTEM TENSION   33% ↓
+    COHERENCE        92%
+    HEART            ♥
+  Buttons:     SAVE TO PHONE  ·  SHARE
+  Footer:      tap outside to dismiss
+
+
+================================================================
+9 — PROFILE  (three states)
+================================================================
+
+Header:      ← Back   [avatar]  Eva   [⚙ settings]
+Status line: baseline forming  /  baseline established  /
+             garden, season three
+
+────────────────────────────────────────────
+STATE A — BASELINE FORMING  (Days 1–7)
+────────────────────────────────────────────
+Eyebrow:   Baseline forming
+Title:     [N] mornings to go.
+
+Progress strip:  Day [N] of 7 · each morning sharpens it
+
+Today's status: ✓ You've checked in this morning.
+
+WHY IT MATTERS (rotates by day):
+  Day 1:   We're comparing you to the average right now. By
+           Day 7, we'll know what your normal looks like.
+  Day 2–3: Your nervous system has a signature. A few more
+           mornings and we'll find it.
+  Day 4–5: Halfway there. Your baseline is taking shape.
+  Day 6:   Tomorrow, suna stops guessing.
+  Day 7:   Today's the day. Your baseline locks in.
+
+YOUR GARDEN, BEGINNING:
+  [seedling row]
+  The first bloom arrives on Day 7. Your garden fills as
+  you practice.
+
+PROFILE quick-stats:
+  Age                    34
+  Cycle tracking         on
+  Morning reminder       8:30am
+
+────────────────────────────────────────────
+STATE B — RECENTLY ESTABLISHED  (Days 8–~30)
+────────────────────────────────────────────
+Eyebrow:   Your garden
+Title:     Three weeks in.
+Caption:   Tap any flower to see what bloomed it.
+
+THIS WEEK  ·  LAST WEEK  ·  TWO WEEKS AGO   (flower grids)
+
+WHAT SUNA HAS NOTICED
+  You're most often Brittle in the late afternoon.
+
+AVERAGE CAPACITY
+  +24%
+  per session, since you started.
+
+────────────────────────────────────────────
+STATE C — GARDEN STATE  (~30+ days)
+────────────────────────────────────────────
+Eyebrow:   Your garden
+Title:     In bloom.
+Caption:   Pinch to zoom. Tap any bloom to remember.
+
+Garden grid · 8 weeks · "winter → now" · "tender season"
+
+WHAT SUNA HAS NOTICED
+  • Your nervous system recovers fastest from Reactive
+    states. It takes longer when you're Dimmed.
+  • Your late luteal phase shows up in your data — average
+    SI rises 22% in those weeks.
+  • You've spent more time Open this month than last.
+
+CAPACITY, LAST 60 DAYS   +31%
+
+YOUR PRACTICES
+  Heart-Centered Hold    23 sessions · oxytocin, your buffer.
+  Physiological Sigh     17 sessions · the emergency exit.
+  Bird Song              12 sessions · 1–8 kHz. alpha waves.
+
+
+================================================================
+10 — SETTINGS
+================================================================
+
+Title:       Settings
+Sub:         The things suna uses to know you better.
+
+ACCOUNT
+  First name        [editable]
+  Email             [user@email]
+
+MEMBERSHIP
+  ● suna Premium            [ANNUAL]
+  Free trial · Renews Sep 14, 2026 at $99/yr
+  Manage subscription ›
+  Restore purchase          [restoring… / restored ✓ /
+                             no purchase]
+  Change plan ›
+
+CYCLE SYNC
+  Track my cycle              [toggle]
+  Last period started         [date]
+  Average cycle length        [— 28 days +]
+  Italic:  suna adjusts what it expects from your nervous
+           system across the four phases. Late luteal looks
+           different than ovulation — and that's okay.
+
+RHYTHM
+  Wake time                   07:30
+  Morning check-in reminder   [toggle]
+  Reminder time               08:30
+
+APP
+  Theme                       light · dark · auto
+  Subtle haptics              [toggle]
+
+PRIVACY & DATA
+  On-device only              ALWAYS
+  Export my data ›
+  Delete account ›            (destructive)
+
+Footer:  suna · v 0.6 · spring 2026
+
+
+================================================================
+11 — MONEY & PERFORMANCE FACTS  (shuffleable card on Home)
+================================================================
+
+01. THE NEGOTIATION GAP
+    Headline:  Anxious negotiators walk away with 30% less.
+    Pull:      the fastest ROI in your workday.
+    Body:      Wharton: anxious participants made lower first
+               offers, accepted worse counters, exited earlier.
+               90 seconds of physiological sighing flips the
+               profile.
+    Source:    Brooks & Schweitzer, 2011
+
+02. THE TRADER DATA
+    Headline:  High-HRV traders outperform over months of
+               real P&L.
+    Pull:      your heart rhythm is a market edge.
+    Body:      MIT tracked working traders. HRV predicted
+               risk-adjusted returns better than years of
+               experience. Regulation compounds.
+    Source:    Lo & Repin, 2002
+
+03. THE RAISE
+    Headline:  Vocal prosody predicts compensation.
+    Pull:      the voice in the room is the number on the
+               contract.
+    Body:      Speakers with flat or unregulated tone get
+               lower offers — even when the words are
+               identical. Hum before the call.
+    Source:    Porges, 2011
+
+04. THE ASK
+    Headline:  20% more likely to initiate a high-stakes ask
+               after a Saccadic Reset.
+    Pull:      the most valuable 60 seconds of your morning.
+    Body:      Optic flow reduces amygdala activation and
+               increases willingness to initiate. The practice
+               most directly tied to income.
+    Source:    Huberman Lab, 2021
+
+05. THE CORTISOL TAX
+    Headline:  Every 10% rise in cortisol drops risk-taking.
+    Pull:      the hormone that talks you out of the deal.
+    Body:      Coates and Herbert studied London traders in
+               live markets. High-cortisol days produced
+               conservative calls. A physiological sigh drops
+               cortisol within minutes.
+    Source:    Coates & Herbert, 2008
+
+06. THE RECOVERY GAP
+    Headline:  Top performers come back faster after a no.
+    Pull:      not whether it happens. how fast you recover.
+    Body:      Top-percentile athletes, traders, and
+               negotiators show shorter HRV-drop durations
+               after a loss. Recovery speed is trainable.
+    Source:    Thayer & Lane, 2000
+
+
+================================================================
+12 — AUTH SCREENS
+================================================================
+
+LOGIN
+  Eyebrow:   Welcome back
+  Title:     Sign in.
+  Sub:       Pick up where you left off.
+  Fields:    Email · Password
+  Foot:      Or use Apple / Google from the start screen.
+             Your nervous system data stays on your device.
+  Buttons:   Sign in   ·   Forgot password?
+
+FORGOT PASSWORD
+  Eyebrow:   Reset password
+  Title:     Forgot it. It happens.
+  Sub:       We'll send you a link to set a new one.
+  Field:     Email
+  CTA:       Send reset link
+
+  CONFIRMATION
+  Eyebrow:   Check your email
+  Title:     A link is on its way.
+  Sub:       We sent a reset link to [email]. Open it on this
+             device to set a new password.
+  Card:      Didn't get it? Check spam, or wait a minute and
+             re-send.
+  Buttons:   Done · Re-send link
+
+MAGIC-LINK VERIFY
+  Eyebrow:   Verify
+  Title:     Enter your 6-digit code.
+  Sub:       We sent it to your email. It expires in 10
+             minutes.
+  Field:     6-digit code
+  Foot:      Re-send code   /   Signing you in…
+
+DELETE ACCOUNT
+  Eyebrow:   Permanent
+  Title:     Delete your account.
+  Sub:       This wipes your garden, your sessions, and
+             everything suna knows about your rhythms. It
+             cannot be undone.
+  WHAT GETS DELETED
+    • All check-ins, scans, and HRV readings
+    • Your entire garden and session history
+    • Cycle data, wake time, and reminders
+    • Your active subscription (cancel separately in
+      Apple/Google)
+  Confirm:   Type to confirm — "delete my garden"
+  Buttons:   DELETE FOREVER   ·   Cancel
+
+EXPORT DATA
+  Eyebrow:   Your data
+  Title:     Export everything.
+  Sub:       A single .json file with every reading, every
+             practice, every flower in your garden. Yours
+             forever.
+  Stages:    Prepare my data → Preparing… → Ready. 2.4 KB ·
+             suna-export.json
+  Buttons:   Download (.json)  ·  Email it to me instead
+
+
+================================================================
+13 — STATE-FRAMEWORK (reference, used throughout)
+================================================================
+
+THE BAEVSKY STRESS INDEX (SI) maps to four states:
+  SI > 150   →  BRITTLE   (red-lining, brace)
+  SI 100–150 →  REACTIVE  (alert, scattered)
+  SI 50–100  →  ELASTIC   (sweet spot, bounce)
+  SI < 50    →  STATIC    (quiet, low momentum)
+
+THE FOUR PHASES OF THE DAY:
+  rise   (6a–11a)   — clear sleep inertia, build momentum
+  flow   (11a–4p)   — lock coherence, widen the window
+  land   (4p–12a)   — deep parasympathetic, recover
+  play   (anytime)  — unmeasured, by design uncounted
+
+CYCLE PHASES (when tracking on):
+  Days 1–5         menstrual
+  Days 6–~12       follicular
+  Days ~13–~15     ovulation
+  Days ~16–~23     luteal
+  Days ~24–end     late luteal
